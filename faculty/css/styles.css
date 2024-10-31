@@ -1,0 +1,113 @@
+.main-container {
+  position: absolute;
+  top: 80px;
+  left: 260px;
+  width: calc(100% - 270px);
+}
+
+.pagetitle .breadcrumb li a {
+  color: rgb(117, 117, 117);
+  font-weight: 500;
+  text-decoration: none;
+}
+
+/* links */
+.txt-folder-link {
+  text-decoration: none;
+  font-weight: 600;
+}
+
+.txt-folder-link:hover {
+  color: rgb(87, 87, 87) !important;
+}
+
+/* File View */
+
+.file-main-container {
+  max-height: 87vh;
+  overflow-y: auto;
+}
+
+.file-date-container {
+  margin-left: 20px;
+}
+
+.hightlight-color {
+  color: rgb(219, 115, 30);
+}
+
+/* message */
+.message-sender-container {
+  height: 95vh !important;
+  width: 250px;
+  overflow-y: auto;
+}
+
+.message-user-active-li {
+  background-color: rgb(219, 115, 30);
+}
+
+.message-user-active-a {
+  color: white !important;
+}
+
+.message-sender-container ul li a {
+  text-decoration: none;
+  color: rgb(219, 115, 30);
+}
+
+.message-content-container {
+  margin-left: 20px;
+  height: 95vh;
+  width: 100%;
+}
+
+.message-content-container-iside {
+  height: 90%;
+  overflow-y: auto;
+  border-bottom: 1px solid rgb(190, 190, 190);
+}
+
+.per-message-container {
+  margin: 5px;
+  display: flex;
+  flex-direction: column;
+}
+
+.message-left {
+  align-items: end;
+}
+
+.per-message-container p {
+  margin: 0;
+  font-size: 15px;
+  font-weight: 600;
+}
+
+.per-message-container span {
+  font-size: 10px;
+}
+
+/* Manage User */
+.btn-add-new-user {
+  position: absolute;
+  right: 10px;
+}
+
+.password-button-container {
+  position: relative;
+}
+
+.password-button-container .btn {
+  position: absolute;
+  top: 0;
+  right: 0;
+}
+
+
+/* Tasks */
+
+.tasks-container {
+  height: 93vh;
+  overflow-y: auto;
+}
